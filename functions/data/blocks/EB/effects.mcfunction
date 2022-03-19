@@ -28,8 +28,8 @@ effect @s[scores={effects=24}] levitation 30 1
 effect @s[scores={effects=25}] fatal_poison 30 1
 effect @s[scores={effects=26}] conduit_power 30 1
 effect @s[scores={effects=27}] slow_falling 30 1
-effect @s[scores={effects=28}] bad_omen 100 1
-effect @s[scores={effects=29}] village_hero 30 1
+effect @s[scores={effects=28}] bad_omen 6000 1
+effect @s[scores={effects=29}] village_hero 3000 255
 
 #It can only use at the edition of the Experimental Gameplay/Experiments of the 1.18.0 . If you're playing the Chinese Edition , You can ignore absolutely it , If you're playing the BE Edition , You can try to delete this sentence and only retain this command . And then change the 29 of the " scoreboard players random @s effects 1 29 " the into 30 (It’s on second sentence) : effect @s[scores={effects=30}] darkness 30 1
 
