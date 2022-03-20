@@ -7,7 +7,7 @@ execute @a[scores={time=6000..6300},c=1] ~~~ summon armor_stand "§r§fore§r" ~
 execute @r[scores={time=6000..6300}] ~~~ spreadplayers ~~ 3 1000 @e[type=armor_stand,name="§r§fore§r"]
 
 scoreboard players add @e[type=armor_stand,name="§r§fore§r"] ore 0
-scoreboard players random @e[type=armor_stand,name="§r§fore§r",scores={ore=..0}] ore 1 11
+scoreboard players random @e[type=armor_stand,name="§r§fore§r",scores={ore=..0}] ore 1 23
 execute @p[tag=!ok3] ~~~ scoreboard players random @e[type=armor_stand,name="§r§fore§r",scores={ore=12..20}] ore 1 11
 execute @p[tag=!ok1] ~~~ scoreboard players random @e[type=armor_stand,name="§r§fore§r",scores={ore=21..22}] ore 1 20
 execute @p[tag=!ok2] ~~~ scoreboard players random @e[type=armor_stand,name="§r§fore§r",scores={ore=23}] ore 1 22
