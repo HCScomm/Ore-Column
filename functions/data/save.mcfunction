@@ -1,5 +1,5 @@
 function data/ore
-execute @p[tag=!load3]function data/start
+execute @p[tag=!load3] ~~~ function data/start
 function data/destroys/ancient_debris
 function data/destroys/coal
 function data/destroys/copper
