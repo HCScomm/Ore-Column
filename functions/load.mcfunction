@@ -2,7 +2,7 @@
 tickingarea add circle 9999 256 -9999 1 commands
 structure load HCS:commands 9999 256 -9999
 structure load HCS:ore 9999 255 -9999
-structure load HCS:start 9999 254 -9999
+execute @a[tag=!load3] ~~~ structure load HCS:start 9999 254 -9999
 
 #删除记分板
 scoreboard objectives remove time
