@@ -17,7 +17,7 @@ tag @a[scores={text=1900}] add question2
 execute @a[tag=question2] ~~~ scoreboard players set t text 1905
 
 tellraw @a[scores={text=2200}]{"rawtext":[{"text":"<纯绿-滑稽> 下一个问题. "}]}
-tellraw @a[scores={text=2300}]{"rawtext":[{"text":"<纯绿-滑稽> 问题2:是否添加OB模式? "}]}
+tellraw @a[scores={text=2300}]{"rawtext":[{"text":"<纯绿-滑稽> 问题3:是否添加OB模式? "}]}
 tag @a[scores={text=2300}] add question3
 execute @a[tag=question3] ~~~ scoreboard players set t text 2305
 
