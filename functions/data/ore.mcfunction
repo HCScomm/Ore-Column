@@ -45,7 +45,8 @@ execute @e[type=armor_stand,name="§r§fore§r",scores={ore=21,ob=1..2500}] ~~~ 
 execute @e[type=armor_stand,name="§r§fore§r",scores={ore=22,ob=1..2000}] ~~~ setblock ~~-1~  prismarine 1
 execute @e[type=armor_stand,name="§r§fore§r",scores={ore=23,ob=1..3500}] ~~~ setblock ~~-1~  gold_block 1
 
-execute @e[type=armor_stand,name="§r§fore§r",scores={ore=!0}] ~~~ setblock ~ 256 ~ light_block 0
+execute @e[type=armor_stand,name="§r§fore§r",scores={ore=1..22}] ~~~ setblock ~ 256 ~ light_block 0
+execute @e[type=armor_stand,name="§r§fore§r",scores={ore=23}] ~~~ setblock ~ 256 ~ light_block 1
 tp @e[type=armor_stand,name="§r§fore§r",scores={ore=!0}] 999 999 -999
 kill @e[type=armor_stand,name="§r§fore§r",scores={ore=!0}]
 
