@@ -29,6 +29,11 @@ tellraw @a[tag=ok2,scores={text=3300}]{"rawtext":[{"text":"§bEB"}]}
 tellraw @a[tag=ok3,scores={text=3300}]{"rawtext":[{"text":"§bOB"}]}
 tellraw @a[scores={text=3300}]{"rawtext":[{"text":"等模式."}]}
 
+execute @a[scores={text=3500},tag=ok1] ~~~ structure load HCS:NnE 9999 253 -9999
+execute @a[scores={text=3500},tag=ok2] ~~~ structure load HCS:EB 9999 252 -9999
+execute @a[scores={text=3500},tag=ok3] ~~~ structure load HCS:OB 9999 255 -9999
+
 tellraw @a[scores={text=3500}]{"rawtext":[{"text":"<纯绿-滑稽> Have a good time!"}]}
 
 tag @a[scores={text=3500}] add load3
+execute @a[scores={text=3500},tag=ok1] ~~~ setblock 9999 254 -9999 air
