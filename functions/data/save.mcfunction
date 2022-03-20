@@ -12,8 +12,6 @@ function data/destroys/obsidian
 function data/destroys/redstone
 function data/destroys/stone
 function data/ore
-function data/ore2
-function data/end
 execute @a[tag=load2] ~~~ tag @a add load2
 execute @a[tag=load3] ~~~ tag @a add load3
 execute @a[tag=question1] ~~~ tag @a add question1
