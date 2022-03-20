@@ -54,6 +54,6 @@ scoreboard objectives add ob dummy
 gamerule commandblockoutput false
 
 #文本
-execute @a[tag=!load] ~~~ tellraw @s {"rawtext":[{"text":"尊敬的§e@"},{"selector":"@s"},{"text":"§r：\n  你好，我是原作者纯绿-滑稽，你也可以直接叫我HCScomm，这是我在《我的世界》中发布的第一个作品，我很高兴你能够游玩. 这是我的一些信息:\n邮箱:§ehcscomm@163.com§r\nbilibili:§a纯绿-滑稽§r\nMinecraft代号/GitHub账号:§cHCScomm§r\n  希望你能够支持我！\n作者 纯绿-滑稽\n"},{"score":{"name":"@s","objective":"year"}},{"text":"年"},{"score":{"name":"@s","objective":"month"}},{"text":"月"},{"score":{"name":"@s","objective":"day"}},{"text":"日"}]}
+execute @a[tag=!load] ~~~ tellraw @s {"rawtext":[{"text":"尊敬的§e@"},{"selector":"@s"},{"text":"§r：\n  你好, 我是原作者纯绿-滑稽, 你也可以直接叫我HCScomm, 我很高兴你能够使用这个行为包. 这是我的一些信息: \n邮箱: §ehcscomm@163.com§r\nbilibili: §a纯绿-滑稽§r\nMinecraft代号/GitHub账号: §cHCScomm§r\n  希望你能够支持我！ \n作者 纯绿-滑稽\n"},{"score":{"name":"@s","objective":"year"}},{"text":"年"},{"score":{"name":"@s","objective":"month"}},{"text":"月"},{"score":{"name":"@s","objective":"day"}},{"text":"日"}]}
 tag @a add load
 tag @a add load2
