@@ -37,6 +37,9 @@ execute @e[type=armor_stand,name="§r§fore§r",scores={ore=18,ob=1..5000}] ~~~ 
 execute @e[type=armor_stand,name="§r§fore§r",scores={ore=19,ob=1..5000}] ~~~ fill ~~-1~ ~~1~  diamond_block
 execute @e[type=armor_stand,name="§r§fore§r",scores={ore=20,ob=1..5000}] ~~~ fill ~~-1~ ~~1~  netherite_block
 
+execute @e[type=armor_stand,name="§r§fore§r",scores={ore=21,ob=1..2500}] ~~~ setblock ~~-1~  magma
+execute @e[type=armor_stand,name="§r§fore§r",scores={ore=22,ob=1..2000}] ~~~ setblock ~~-1~  prismarine 1
+
 execute @e[type=armor_stand,name="§r§fore§r",scores={ore=!0}] ~~~ setblock ~ 256 ~ light_block 0
 tp @e[type=armor_stand,name="§r§fore§r",scores={ore=!0}] 999 999 -999
 kill @e[type=armor_stand,name="§r§fore§r",scores={ore=!0}]
