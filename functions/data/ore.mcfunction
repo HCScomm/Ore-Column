@@ -8,12 +8,8 @@ execute @r[scores={time=6000..6300}] ~~~ spreadplayers ~~ 3 1000 @e[type=armor_s
 
 scoreboard players add @e[type=armor_stand,name="§r§fore§r"] ore 0
 execute @p[tag=!ok3] ~~~ scoreboard players random @e[type=armor_stand,name="§r§fore§r",scores={ore=..0}] ore 1 11
-execute @p[tag=ok3] ~~~ scoreboard players random @e[type=armor_stand,name="§r§fore§r",scores={ore=..0}] ore 1 20
 
 execute @e[type=armor_stand,name="§r§fore§r",scores={ore=0}] ~~~ detect ~ 256 ~ light_block 0 spreadplayers ~~ 0 3 @s
-
-scoreboard players random @e[type=armor_stand,name="§r§fore§r",scores={ore=12..20}] ob 1 10000
-scoreboard players random @e[type=armor_stand,name="§r§fore§r",scores={ore=12,ob=5001..10000}] ob 1 11
 
 execute @e[type=armor_stand,name="§r§fore§r",scores={ore=1}] ~~~ fill ~~-1~ ~~8~ coal_ore
 execute @e[type=armor_stand,name="§r§fore§r",scores={ore=2}] ~~~ fill ~~-1~ ~~8~ redstone_ore
@@ -26,16 +22,6 @@ execute @e[type=armor_stand,name="§r§fore§r",scores={ore=8}] ~~~ fill ~~-1~ ~
 execute @e[type=armor_stand,name="§r§fore§r",scores={ore=9}] ~~~ fill ~~-1~ ~~8~ ancient_debris
 execute @e[type=armor_stand,name="§r§fore§r",scores={ore=10}] ~~~ fill ~~-1~ ~~8~ stone
 execute @e[type=armor_stand,name="§r§fore§r",scores={ore=11}] ~~~ fill ~~-1~ ~~8~ obsidian
-
-execute @e[type=armor_stand,name="§r§fore§r",scores={ore=12,ob=1..5000}] ~~~ fill ~~-1~ ~~1~  coal_block
-execute @e[type=armor_stand,name="§r§fore§r",scores={ore=13,ob=1..5000}] ~~~ fill ~~-1~ ~~1~  redstone_block
-execute @e[type=armor_stand,name="§r§fore§r",scores={ore=14,ob=1..5000}] ~~~ fill ~~-1~ ~~1~  copper_block
-execute @e[type=armor_stand,name="§r§fore§r",scores={ore=15,ob=1..5000}] ~~~ fill ~~-1~ ~~1~  iron_block
-execute @e[type=armor_stand,name="§r§fore§r",scores={ore=16,ob=1..5000}] ~~~ fill ~~-1~ ~~1~  gold_block
-execute @e[type=armor_stand,name="§r§fore§r",scores={ore=17,ob=1..5000}] ~~~ fill ~~-1~ ~~1~  lapis_block
-execute @e[type=armor_stand,name="§r§fore§r",scores={ore=18,ob=1..5000}] ~~~ fill ~~-1~ ~~1~  emerald_block
-execute @e[type=armor_stand,name="§r§fore§r",scores={ore=19,ob=1..5000}] ~~~ fill ~~-1~ ~~1~  diamond_block
-execute @e[type=armor_stand,name="§r§fore§r",scores={ore=20,ob=1..5000}] ~~~ fill ~~-1~ ~~1~  netherite_block
 
 execute @e[type=armor_stand,name="§r§fore§r",scores={ore=!0}] ~~~ setblock ~ 256 ~ light_block 0
 tp @e[type=armor_stand,name="§r§fore§r",scores={ore=!0}] 999 999 -999
