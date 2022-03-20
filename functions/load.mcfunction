@@ -9,12 +9,6 @@ scoreboard objectives remove time
 scoreboard objectives remove ore
 scoreboard objectives remove lb
 scoreboard objectives remove count
-scoreboard objectives remove time2 
-scoreboard objectives remove time3 
-scoreboard objectives remove brb 
-scoreboard objectives remove brb.time 
-scoreboard objectives remove epb 
-scoreboard objectives remove epb.time 
 scoreboard objectives remove text
 scoreboard objectives remove ob
 
@@ -23,12 +17,6 @@ scoreboard objectives add time dummy
 scoreboard objectives add ore dummy
 scoreboard objectives add lb dummy
 scoreboard objectives add count dummy
-scoreboard objectives add time2 dummy
-scoreboard objectives add time3 dummy
-scoreboard objectives add brb dummy
-scoreboard objectives add brb.time dummy
-scoreboard objectives add epb dummy
-scoreboard objectives add epb.time dummy
 scoreboard objectives add text dummy
 scoreboard objectives add ob dummy
 
@@ -66,6 +54,6 @@ scoreboard objectives add ob dummy
 gamerule commandblockoutput false
 
 #文本
-execute @a[tag=!load] ~~~ tellraw @s {"rawtext":[{"text":"§e§lBETA EDITION\n§r纯绿-滑稽\n"},{"score":{"name":"@s","objective":"year"}},{"text":"年"},{"score":{"name":"@s","objective":"month"}},{"text":"月"},{"score":{"name":"@s","objective":"day"}},{"text":"日"}]}
+execute @a[tag=!load] ~~~ tellraw @s {"rawtext":[{"text":"尊敬的§e@"},{"selector":"@s"},{"text":"§r：\n  你好，我是原作者纯绿-滑稽，你也可以直接叫我HCScomm，这是我在《我的世界》中发布的第一个作品，我很高兴你能够游玩. 这是我的一些信息:\n邮箱:§ehcscomm@163.com§r\nbilibili:§a纯绿-滑稽§r\nMinecraft代号/GitHub账号:§cHCScomm§r\n  希望你能够支持我！\n作者 纯绿-滑稽\n"},{"score":{"name":"@s","objective":"year"}},{"text":"年"},{"score":{"name":"@s","objective":"month"}},{"text":"月"},{"score":{"name":"@s","objective":"day"}},{"text":"日"}]}
 tag @a add load
 tag @a add load2
