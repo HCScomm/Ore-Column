@@ -28,7 +28,7 @@ tellraw @a[tag=ok1,scores={text=3300}] {"rawtext":[{"text":"§bNnE"}]}
 tellraw @a[tag=ok2,scores={text=3300}] {"rawtext":[{"text":"§bEB"}]}
 tellraw @a[tag=ok3,scores={text=3300}] {"rawtext":[{"text":"§bOB"}]}
 tellraw @a[scores={text=3300}] {"rawtext":[{"text":"等模式."}]}
-tellraw @a[scores={text=3500}]{"rawtext":[{"text":"<纯绿-滑稽> Have a good time!"}]}
+tellraw @a[scores={text=3500}] {"rawtext":[{"text":"<纯绿-滑稽> OK. Have a good time!"}]}
 
 tag @a[scores={text=3500}] add load3
 execute @a[scores={text=3500},tag=ok1] ~~~ setblock 9999 254 -9999 air
