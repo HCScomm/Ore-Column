@@ -1,6 +1,7 @@
 function data/destroys/ancient_debris
 function data/destroys/ender_pearl_block
 function data/destroys/blaze_rod_block
+function data/destroys/effect_block
 function data/destroys/coal
 function data/destroys/copper
 function data/destroys/diamond
