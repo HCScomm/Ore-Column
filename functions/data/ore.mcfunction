@@ -53,6 +53,8 @@ kill @e[type=armor_stand,name="§r§fore§r",scores={ore=!0}]
 
 effect @e[type=armor_stand,name="§r§fore§r"] invisibility 1 1 true
 
+#The following commands from 58 lines to 68 lines. If you are using “the new content of the beta”. You can delete them. But if you delete them will never come back. So please consider they consequences before deleting these commands.
+
 effect @e[type=armor_stand,name="lb"] invisibility 1 1 true
 execute @e[type=armor_stand,name="lb"] ~~~ tp ~~~
 scoreboard players add @e[type=armor_stand,name="lb"] lb 5
