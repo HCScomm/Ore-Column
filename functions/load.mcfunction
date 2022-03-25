@@ -11,6 +11,7 @@ scoreboard objectives remove lb
 scoreboard objectives remove count
 scoreboard objectives remove text
 scoreboard objectives remove ob
+scoreboard objectives remove effects
 
 #记分板
 scoreboard objectives add time dummy
@@ -19,6 +20,7 @@ scoreboard objectives add lb dummy
 scoreboard objectives add count dummy
 scoreboard objectives add text dummy
 scoreboard objectives add ob dummy
+scoreboard objectives add effects dummy
 
 #日期
 	##记分板
