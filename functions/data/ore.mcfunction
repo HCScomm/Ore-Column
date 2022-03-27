@@ -1,4 +1,4 @@
-scoreboard players add t time 5
+scoreboard players add t time 6
 scoreboard players add @a time 0
 scoreboard players operation @a time = t time
 execute @p[scores={time=6301..}] ~~~ scoreboard players set t time 0
@@ -52,17 +52,3 @@ tp @e[type=armor_stand,name="§r§fore§r",scores={ore=!0}] 999 999 -999
 kill @e[type=armor_stand,name="§r§fore§r",scores={ore=!0}]
 
 effect @e[type=armor_stand,name="§r§fore§r"] invisibility 1 1 true
-
-#The following commands from 58 lines to 68 lines. If you are using “the new content of the beta”. You can delete them. But if you delete them will never come back. So please consider they consequences before deleting these commands.
-
-effect @e[type=armor_stand,name="lb"] invisibility 1 1 true
-execute @e[type=armor_stand,name="lb"] ~~~ tp ~~~
-scoreboard players add @e[type=armor_stand,name="lb"] lb 5
-execute @e[type=armor_stand,name="lb",scores={lb=150..}] ~~~ fill ~ 256 ~ ~ 256 ~ air 0 replace light_block 0
-kill @e[type=armor_stand,name="lb",scores={lb=150..}]
-
-execute @e[type=armor_stand,name="lb"] ~~~ scoreboard players add c count 1
-scoreboard players reset c count
-scoreboard players add @a count 0
-scoreboard players operation @a count = c count
-execute @p[scores={count=2..}] ~~~ kill @e[type=armor_stand,name="lb",c=1]
