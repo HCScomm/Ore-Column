@@ -32,5 +32,7 @@ tellraw @a[scores={text=3500}] {"rawtext":[{"text":"<纯绿-滑稽> OK. Have a g
 
 tag @a[scores={text=3500}] add load3
 execute @p[scores={text=3500}] ~~~ structure load HCS:commands 9999 256 -9999
+execute @p[scores={text=0..3495}] ~~~ gamerule sendcommandfeedback false
+execute @p[scores={text=3500}] ~~~ gamerule sendcommandfeedback true
 execute @p[scores={text=3500}] ~~~ scoreboard objectives remove text
 execute @a[scores={text=3500}] ~~~ setblock 9999 254 -9999 air
